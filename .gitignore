@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+
+# OpenFOAM generated files
+cases/*/constant/polyMesh/
+cases/*/postProcessing/
+cases/*/[0-9]*/
+cases/*/log.*
+*.foam
+
+# Gmsh and mesh outputs
+*.msh
+*.vtk
+*.vtu
+*.stl
+
+# ML outputs
+*.pt
+*.pth
+ml/checkpoints/
+ml/logs/
+
+# Large data
+gnn_dataset/
+results/
+data/
+output/
+
+# OS and editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
